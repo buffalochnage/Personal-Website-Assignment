@@ -5,18 +5,53 @@ body, h1, h2, h3, p, ul, li {
     border: 0;
 }
 
-body {
+body.home {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4; /* Keep as fallback */
     color: #333;
-    background-image: url('School.webp'); /* Adjust path as needed */
+    background-image: url('../School.webp'); /* Adjust path as needed */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed; /* Optional: makes the image stay fixed on scroll */
 }
 
+body.life-leisure{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Keep as fallback */
+    color: #333;
+    background-image: url('../transportation.webp'); /* Adjust path as needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Optional: makes the image stay fixed on scroll */
+}
+
+body.school-career{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Keep as fallback */
+    color: #333;
+    background-image: url('../career.avif'); /* Adjust path as needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Optional: makes the image stay fixed on scroll */
+}
+
+body.friends-family{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Keep as fallback */
+    color: #333;
+    background-image: url('../friends-family.avif'); /* Adjust path as needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Optional: makes the image stay fixed on scroll */
+}
 
 header {
     background-color: #333;
