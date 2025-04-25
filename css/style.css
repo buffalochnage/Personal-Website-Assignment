@@ -8,9 +8,15 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Keep as fallback */
     color: #333;
+    background-image: url('School.webp'); /* Adjust path as needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Optional: makes the image stay fixed on scroll */
 }
+
 
 header {
     background-color: #333;
@@ -72,4 +78,72 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* General Styles (existing styles)... */
+
+/* Hamburger Menu Styles, everything below is made by perplexity */
+.hamburger {
+    display: none; /* Hide by default */
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+/* Style the nav menu */
+.main-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li {
+    display: inline; /* Display horizontally */
+    margin: 0 1rem; /* Add spacing */
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .main-nav {
+        display: none; /* Hide the menu by default on small screens */
+        position: absolute;
+        top: 100%; /* Position below the header */
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+        z-index: 10; /* Ensure it's on top of other content */
+    }
+
+    .main-nav ul {
+        flex-direction: column; /* Stack the links vertically */
+    }
+
+    .main-nav li {
+        display: block; /* Make each li take full width */
+        margin: 0;
+        padding: 0.75rem 0;
+        border-bottom: 1px solid #555; /* Add a separator */
+    }
+
+     .hamburger {
+        display: block; /* Show hamburger icon on small screens */
+    }
+
+    /* When the menu is active */
+    .main-nav.active {
+        display: block;
+    }
 }
