@@ -1,0 +1,38 @@
+Project Overview
+Repo: Personal-Website-Assignment
+Project Name: MBA Life in the US
+
+1. What’s this about?
+    I’m building a personal website to share my experiences and tips about MBA life in the US. It’ll be a place for stories, advice, and resources for anyone interested in the MBA journey.
+
+2. What am I trying to do?
+    Make a website that’s both useful and nice to look at.
+    Give real insights into school, career, friends, family, daily life, fun stuff, and getting around as an MBA student in America to complete my personal website
+
+3. Who’s this for?
+    People thinking about doing an MBA (especially in the US).
+    International students curious about what it’s really like.
+    Friends and family who want to follow along on my journey.
+
+4. What will the site look like?
+    index.html - Home/Welcome
+    school-career.html - All about school and career stuff
+    friends-family.html - Stories about friends and family
+    life-leisure.html - Life outside of school: hobbies, travel, fun things
+    Resource: Images (using .webp and .avif for fast loading)
+    General CSS files for styling (in a /css folder)
+    JavaScript files for interactivity (in a /js folder)
+
+5. What features will it have?
+    The site will look good on phones and computers (responsive design).
+    Easy navigation bar to jump between pages.
+    Clean, modern HTML5 structure.
+    Lots of photos to bring the stories to life.
+    Some simple interactive touches with JavaScript (like highlighting the current page or little animations).
+
+6. Design ideas
+    Stick to a few colors and fonts for a consistent look.
+    Keep things clean and uncluttered.
+    Make sure everyone can use the site: add alt text for images, make it keyboard-friendly.
+    Optimize images so the site loads quickly.
+

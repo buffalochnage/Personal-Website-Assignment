@@ -119,12 +119,33 @@ footer {
 
 /* Hamburger Menu Styles, everything below is made by perplexity */
 .hamburger {
-    display: none; /* Hide by default */
-    font-size: 1.5rem;
-    color: #fff;
+    width: 35px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     cursor: pointer;
-    padding: 0.5rem;
 }
+
+.hamburger span {
+    display: block;
+    height: 4px;
+    background: #333;
+    border-radius: 2px;
+    transition: 0.4s;
+}
+
+/* Animate to X when active */
+.hamburger.active span:nth-child(1) {
+    transform: translateY(13px) rotate(45deg);
+}
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+    transform: translateY(-13px) rotate(-45deg);
+}
+
 
 /* Style the nav menu */
 .main-nav {
